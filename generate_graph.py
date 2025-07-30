@@ -22,7 +22,7 @@ def parse_patterns(readme_content):
         title = title_match.group(1).strip()
         
         # Subheadings are H4
-        related_patterns_match = re.search(r'^#### Related Patterns$\n(.*?)$\n\n^####', block, re.DOTALL | re.MULTILINE)
+        related_patterns_match = re.search(r'^\*\*Related Patterns\*\*\s\s$\n(.*?)$', block, re.DOTALL | re.MULTILINE)
         
         related_patterns = []
         if related_patterns_match:
