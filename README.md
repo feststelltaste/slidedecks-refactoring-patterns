@@ -721,20 +721,28 @@ Use Reframe Ending Slide to finish with a summary of master points or a decision
 
 ```mermaid
 graph TD;
+    AlignLayout["Align Layout"];
     ApplyThemeHarmonization["Apply Theme Harmonization"];
     BuildUpStepbyStep["Build Up Step-by-Step"];
     CheckSlideDensity["Check Slide Density"];
-    CombineSlideswithSharedContext["Combine Slides with Shared Context"];
+    CollapseSequence["Collapse Sequence"];
     CondenseSlideContent["Condense Slide Content"];
     EliminateDeadSpace["Eliminate Dead Space"];
+    GroupSlideswithSharedContext["Group Slides with Shared Context"];
     GroupbyMeaning["Group by Meaning"];
     MaintainFontDiscipline["Maintain Font Discipline"];
+    MasterDetailSlide["Master–Detail Slide"];
+    MergeContext["Merge Context"];
+    OneIdeaperSlide["One Idea per Slide"];
     RecolortoSignal["Recolor to Signal"];
+    RefactorVisuals["Refactor Visuals"];
     RefineTitleMessaging["Refine Title Messaging"];
     ReframeEndingSlide["Reframe Ending Slide"];
     ReorderSlidesforFlow["Reorder Slides for Flow"];
+    SlideLayoutBalance["Slide Layout Balance"];
     SplitCompositeSlide["Split Composite Slide"];
     StorySpine["Story Spine"];
+    TypographyContrast["Typography Contrast"];
     VisualEmphasisFirst["Visual Emphasis First"];
 
     RefineTitleMessaging --> CondenseSlideContent;
@@ -747,6 +755,14 @@ graph TD;
     MaintainFontDiscipline --> EliminateDeadSpace;
     EliminateDeadSpace --> GroupbyMeaning;
     EliminateDeadSpace --> VisualEmphasisFirst;
+    RefactorVisuals --> VisualEmphasisFirst;
+    RefactorVisuals --> RecolortoSignal;
+    AlignLayout --> EliminateDeadSpace;
+    AlignLayout --> MaintainFontDiscipline;
+    SlideLayoutBalance --> AlignLayout;
+    SlideLayoutBalance --> EliminateDeadSpace;
+    TypographyContrast --> MaintainFontDiscipline;
+    TypographyContrast --> VisualEmphasisFirst;
     CondenseSlideContent --> SplitCompositeSlide;
     CondenseSlideContent --> VisualEmphasisFirst;
     SplitCompositeSlide --> CondenseSlideContent;
@@ -756,9 +772,15 @@ graph TD;
     CheckSlideDensity --> SplitCompositeSlide;
     CheckSlideDensity --> CondenseSlideContent;
     CheckSlideDensity --> EliminateDeadSpace;
-    CombineSlideswithSharedContext --> GroupbyMeaning;
-    CombineSlideswithSharedContext --> CheckSlideDensity;
-    CombineSlideswithSharedContext --> SplitCompositeSlide;
+    GroupSlideswithSharedContext --> GroupbyMeaning;
+    GroupSlideswithSharedContext --> CheckSlideDensity;
+    GroupSlideswithSharedContext --> SplitCompositeSlide;
+    OneIdeaperSlide --> CondenseSlideContent;
+    OneIdeaperSlide --> BuildUpStepbyStep;
+    CollapseSequence --> GroupbyMeaning;
+    CollapseSequence --> VisualEmphasisFirst;
+    MergeContext --> GroupbyMeaning;
+    MergeContext --> GroupSlideswithSharedContext;
     StorySpine --> RefineTitleMessaging;
     StorySpine --> BuildUpStepbyStep;
     StorySpine --> VisualEmphasisFirst;
@@ -772,6 +794,9 @@ graph TD;
     ReframeEndingSlide --> StorySpine;
     ReframeEndingSlide --> RefineTitleMessaging;
     ReframeEndingSlide --> VisualEmphasisFirst;
+    MasterDetailSlide --> OneIdeaperSlide;
+    MasterDetailSlide --> RefineTitleMessaging;
+    MasterDetailSlide --> CollapseSequence;
 ```
 
 <!-- END-GENERATED-GRAPH -->
