@@ -4,79 +4,6 @@ A pattern collection for refactoring your existing slide decks
 
 _Disclaimer: this content is completely AI-generated and is for demo purposes only._
 
-<!-- START-GENERATED-GRAPH -->
-
-**Pattern Overview and Relationships**
-
-```mermaid
-graph TD;
-    RefineTitleMessaging["Refine Title Messaging"];
-    RefineTitleMessaging --> CondenseSlideContent;
-    RefineTitleMessaging --> BuildUpStepbyStep;
-    VisualEmphasisFirst["Visual Emphasis First"];
-    VisualEmphasisFirst --> CondenseSlideContent;
-    VisualEmphasisFirst --> RecolortoSignal;
-    RecolortoSignal["Recolor to Signal"];
-    RecolortoSignal --> VisualEmphasisFirst;
-    RecolortoSignal --> GroupbyMeaning;
-    MaintainFontDiscipline["Maintain Font Discipline"];
-    MaintainFontDiscipline --> VisualEmphasisFirst;
-    MaintainFontDiscipline --> EliminateDeadSpace;
-    EliminateDeadSpace["Eliminate Dead Space"];
-    EliminateDeadSpace --> GroupbyMeaning;
-    EliminateDeadSpace --> VisualEmphasisFirst;
-    CondenseSlideContent["Condense Slide Content"];
-    CondenseSlideContent --> SplitCompositeSlide;
-    CondenseSlideContent --> VisualEmphasisFirst;
-    SplitCompositeSlide["Split Composite Slide"];
-    SplitCompositeSlide --> CondenseSlideContent;
-    SplitCompositeSlide --> BuildUpStepbyStep;
-    GroupbyMeaning["Group by Meaning"];
-    GroupbyMeaning --> RecolortoSignal;
-    GroupbyMeaning --> SplitCompositeSlide;
-    CheckSlideDensity["Check Slide Density"];
-    CheckSlideDensity --> SplitCompositeSlide;
-    CheckSlideDensity --> CondenseSlideContent;
-    CheckSlideDensity --> EliminateDeadSpace;
-    CombineSlideswithSharedContext["Combine Slides with Shared Context"];
-    CombineSlideswithSharedContext --> GroupbyMeaning;
-    CombineSlideswithSharedContext --> CheckSlideDensity;
-    CombineSlideswithSharedContext --> SplitCompositeSlide;
-    StorySpine["Story Spine"];
-    StorySpine --> RefineTitleMessaging;
-    StorySpine --> BuildUpStepbyStep;
-    StorySpine --> VisualEmphasisFirst;
-    ReorderSlidesforFlow["Reorder Slides for Flow"];
-    ReorderSlidesforFlow --> StorySpine;
-    ReorderSlidesforFlow --> BuildUpStepbyStep;
-    ReorderSlidesforFlow --> RefineTitleMessaging;
-    BuildUpStepbyStep["Build Up Step-by-Step"];
-    BuildUpStepbyStep --> SplitCompositeSlide;
-    BuildUpStepbyStep --> VisualEmphasisFirst;
-    ApplyThemeHarmonization["Apply Theme Harmonization"];
-    ApplyThemeHarmonization --> MaintainFontDiscipline;
-    ApplyThemeHarmonization --> RecolortoSignal;
-    ReframeEndingSlide["Reframe Ending Slide"];
-    ReframeEndingSlide --> StorySpine;
-    ReframeEndingSlide --> RefineTitleMessaging;
-    ReframeEndingSlide --> VisualEmphasisFirst;
-    MasterDetailSlide["Master–Detail Slide"];
-    OneIdeaperSlide["One Idea per Slide"];
-    CollapseSequence["Collapse Sequence"];
-    RefactorTitles["Refactor Titles"];
-    RefactorVisuals["Refactor Visuals"];
-    AlignLayout["Align Layout"];
-    SlideLayoutBalance["Slide Layout Balance"];
-    StructuretheStory["Structure the Story"];
-    CalltoAction["Call to Action"];
-    TypographyContrast["Typography Contrast"];
-    MergeContext["Merge Context"];
-    ReduceTextDensity["Reduce Text Density"];
-    ReduceTextDensity --> SplitCompositeSlide;
-    ReduceTextDensity --> VisualEmphasisFirst;
-```
-
-<!-- END-GENERATED-GRAPH -->
 
 ## Focus Attention
 
@@ -993,3 +920,78 @@ Split Composite Slide, Visual Emphasis First
 
 **What Next**  
 Apply Visual Emphasis First to strengthen your slide’s key point.
+
+
+<!-- START-GENERATED-GRAPH -->
+
+## Pattern Relationships
+
+```mermaid
+graph TD;
+    RefineTitleMessaging["Refine Title Messaging"];
+    RefineTitleMessaging --> CondenseSlideContent;
+    RefineTitleMessaging --> BuildUpStepbyStep;
+    VisualEmphasisFirst["Visual Emphasis First"];
+    VisualEmphasisFirst --> CondenseSlideContent;
+    VisualEmphasisFirst --> RecolortoSignal;
+    RecolortoSignal["Recolor to Signal"];
+    RecolortoSignal --> VisualEmphasisFirst;
+    RecolortoSignal --> GroupbyMeaning;
+    MaintainFontDiscipline["Maintain Font Discipline"];
+    MaintainFontDiscipline --> VisualEmphasisFirst;
+    MaintainFontDiscipline --> EliminateDeadSpace;
+    EliminateDeadSpace["Eliminate Dead Space"];
+    EliminateDeadSpace --> GroupbyMeaning;
+    EliminateDeadSpace --> VisualEmphasisFirst;
+    CondenseSlideContent["Condense Slide Content"];
+    CondenseSlideContent --> SplitCompositeSlide;
+    CondenseSlideContent --> VisualEmphasisFirst;
+    SplitCompositeSlide["Split Composite Slide"];
+    SplitCompositeSlide --> CondenseSlideContent;
+    SplitCompositeSlide --> BuildUpStepbyStep;
+    GroupbyMeaning["Group by Meaning"];
+    GroupbyMeaning --> RecolortoSignal;
+    GroupbyMeaning --> SplitCompositeSlide;
+    CheckSlideDensity["Check Slide Density"];
+    CheckSlideDensity --> SplitCompositeSlide;
+    CheckSlideDensity --> CondenseSlideContent;
+    CheckSlideDensity --> EliminateDeadSpace;
+    CombineSlideswithSharedContext["Combine Slides with Shared Context"];
+    CombineSlideswithSharedContext --> GroupbyMeaning;
+    CombineSlideswithSharedContext --> CheckSlideDensity;
+    CombineSlideswithSharedContext --> SplitCompositeSlide;
+    StorySpine["Story Spine"];
+    StorySpine --> RefineTitleMessaging;
+    StorySpine --> BuildUpStepbyStep;
+    StorySpine --> VisualEmphasisFirst;
+    ReorderSlidesforFlow["Reorder Slides for Flow"];
+    ReorderSlidesforFlow --> StorySpine;
+    ReorderSlidesforFlow --> BuildUpStepbyStep;
+    ReorderSlidesforFlow --> RefineTitleMessaging;
+    BuildUpStepbyStep["Build Up Step-by-Step"];
+    BuildUpStepbyStep --> SplitCompositeSlide;
+    BuildUpStepbyStep --> VisualEmphasisFirst;
+    ApplyThemeHarmonization["Apply Theme Harmonization"];
+    ApplyThemeHarmonization --> MaintainFontDiscipline;
+    ApplyThemeHarmonization --> RecolortoSignal;
+    ReframeEndingSlide["Reframe Ending Slide"];
+    ReframeEndingSlide --> StorySpine;
+    ReframeEndingSlide --> RefineTitleMessaging;
+    ReframeEndingSlide --> VisualEmphasisFirst;
+    MasterDetailSlide["Master–Detail Slide"];
+    OneIdeaperSlide["One Idea per Slide"];
+    CollapseSequence["Collapse Sequence"];
+    RefactorTitles["Refactor Titles"];
+    RefactorVisuals["Refactor Visuals"];
+    AlignLayout["Align Layout"];
+    SlideLayoutBalance["Slide Layout Balance"];
+    "Structure the Story"];
+    CalltoAction["Call to Action"];
+    TypographyContrast["Typography Contrast"];
+    MergeContext["Merge Context"];
+    ReduceTextDensity["Reduce Text Density"];
+    ReduceTextDensity --> SplitCompositeSlide;
+    ReduceTextDensity --> VisualEmphasisFirst;
+```
+
+<!-- END-GENERATED-GRAPH -->

@@ -70,7 +70,7 @@ def main():
     patterns = parse_patterns(readme_content)
     mermaid_graph = generate_mermaid_graph(patterns)
     
-    graph_content = f"<!-- START-GENERATED-GRAPH -->\n\n**Pattern Overview and Relationships**\n\n```mermaid\n{mermaid_graph}```\n\n<!-- END-GENERATED-GRAPH -->"
+    graph_content = f"<!-- START-GENERATED-GRAPH -->\n\n## Pattern Relationships\n\n```mermaid\n{mermaid_graph}```\n\n<!-- END-GENERATED-GRAPH -->"
 
     # Use regex to replace the content between markers
     new_readme_content, count = re.subn(
