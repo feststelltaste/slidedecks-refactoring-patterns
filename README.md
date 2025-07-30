@@ -109,150 +109,150 @@ graph TD;
 
 ### Refine Title Messaging
 
-#### Intent
+**Intent**  
 Turn slide titles into key takeaways.
 
-#### Problem
+**Problem**  
 Generic titles like “Overview” or “Results” miss the opportunity to communicate insights.
 
-#### Solution
+**Solution**  
 Use declarative, conclusion-oriented titles (e.g., “Revenue Dropped Due to Market Saturation”).
 
-#### Tradeoffs
-Pros: Clarity, memorable narrative
-Cons: Might oversimplify
+**Tradeoffs**  
+Pros: Clarity, memorable narrative  
+Cons: Might oversimplify  
 Difficulties: Distilling the essence of the slide
 
-#### Rationale
+**Rationale**  
 Strong titles help audiences grasp and recall your message quickly.
 
-#### Known Uses
+**Known Uses**  
 Havard Business Review articles, strategy presentations
 
-#### Related Patterns
+**Related Patterns**  
 Condense Slide Content, Build Up Step-by-Step
 
-#### What Next
+**What Next**  
 Apply Build Up Step-by-Step to let the insight unfold logically.
 
 ---
 
 ### Visual Emphasis First
 
-#### Intent
+**Intent**  
 Make the most important element visually dominant.
 
-#### Problem
+**Problem**  
 Audiences scan slides quickly. If everything looks the same, nothing stands out.
 
-#### Solution
+**Solution**  
 Use size, contrast, position, or color to emphasize the most critical element on the slide.
 
-#### Tradeoffs
-Pros: Highlights what matters
-Cons: Risk of overdesign
+**Tradeoffs**  
+Pros: Highlights what matters  
+Cons: Risk of overdesign  
 Difficulties: Balancing contrast and subtlety
 
-#### Rationale
+**Rationale**  
 Visual hierarchy guides attention. The brain processes visual cues faster than text.
 
-#### Known Uses
+**Known Uses**  
 Apple product launch slides, Garr Reynolds' "Presentation Zen" examples
 
-#### Related Patterns
+**Related Patterns**  
 Condense Slide Content, Recolor to Signal
 
-#### What Next
+**What Next**  
 Recolor to Signal to add semantic meaning to your visuals.
 
 ---
 
 ### Recolor to Signal
 
-#### Intent
+**Intent**  
 Use color intentionally to convey relationships or status.
 
-#### Problem
+**Problem**  
 Default PowerPoint colors often don’t support the narrative or visual hierarchy.
 
-#### Solution
+**Solution**  
 Assign meaning to color: red for risk, green for success, gray for background. Apply it consistently.
 
-#### Tradeoffs
-Pros: Reinforces structure and emotion
-Cons: May reduce accessibility for color-blind viewers
+**Tradeoffs**  
+Pros: Reinforces structure and emotion  
+Cons: May reduce accessibility for color-blind viewers  
 Difficulties: Needs a clear color legend or convention
 
-#### Rationale
+**Rationale**  
 Color can encode structure and emotion if used deliberately.
 
-#### Known Uses
+**Known Uses**  
 Status dashboards, Agile boards, pitch decks
 
-#### Related Patterns
+**Related Patterns**  
 Visual Emphasis First, Group by Meaning
 
-#### What Next
+**What Next**  
 Group by Meaning to spatially reinforce the same message.
 
 ---
 
 ### Maintain Font Discipline
 
-#### Intent
+**Intent**  
 Keep typography consistent and clean.
 
-#### Problem
+**Problem**  
 Mixing fonts, sizes, and styles can make slides look chaotic and amateurish.
 
-#### Solution
+**Solution**  
 Use a maximum of 2 font families and consistent sizing hierarchy. Define headline, subhead, and body text sizes and stick to them.
 
-#### Tradeoffs
-Pros: Professionalism, easier scanning
-Cons: Less visual “fun”
+**Tradeoffs**  
+Pros: Professionalism, easier scanning  
+Cons: Less visual “fun”  
 Difficulties: Choosing fonts that work across platforms
 
-#### Rationale
+**Rationale**  
 Typography is part of your brand and sets the tone of the presentation.
 
-#### Known Uses
+**Known Uses**  
 Company brand guidelines, speaker decks
 
-#### Related Patterns
+**Related Patterns**  
 Visual Emphasis First, Eliminate Dead Space
 
-#### What Next
+**What Next**  
 If needed, Apply Theme Harmonization.
 
 ---
 
 ### Eliminate Dead Space
 
-#### Intent
+**Intent**  
 Use slide real estate efficiently to maintain visual balance.
 
-#### Problem
+**Problem**  
 Slides with large empty areas can appear unfinished or awkward.
 
-#### Solution
+**Solution**  
 Resize and reposition elements to distribute content evenly and with purpose. Don’t just center everything.
 
-#### Tradeoffs
-Pros: More polished and intentional slides
-Cons: Risk of overcrowding
+**Tradeoffs**  
+Pros: More polished and intentional slides  
+Cons: Risk of overcrowding  
 Difficulties: Requires aesthetic judgment
 
-#### Rationale
+**Rationale**  
 Balanced slides appear more professional and intentional.
 
-#### Known Uses
+**Known Uses**  
 Professional design templates, investor presentations
 
-#### Related Patterns
+**Related Patterns**  
 Group by Meaning, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Refine Title Messaging for maximum impact.
 
 ---
@@ -263,150 +263,150 @@ Refine Title Messaging for maximum impact.
 
 ### Condense Slide Content
 
-#### Intent
+**Intent**  
 Reduce cognitive load and improve focus per slide.
 
-#### Problem
+**Problem**  
 Overly dense slides overwhelm the audience, making key messages hard to grasp. Many slide creators try to be complete rather than impactful.
 
-#### Solution
+**Solution**  
 Summarize, cut redundant bullets, and keep only one message per slide. Use notes or appendices for additional detail.
 
-#### Tradeoffs
-Pros: Clarity, stronger message retention
-Cons: Might require more slides
+**Tradeoffs**  
+Pros: Clarity, stronger message retention  
+Cons: Might require more slides  
 Difficulties: Deciding what to omit
 
-#### Rationale
+**Rationale**  
 People read slower than you speak. Slides are not documents—they’re visual aids.
 
-#### Known Uses
+**Known Uses**  
 TED Talks, Steve Jobs' keynotes
 
-#### Related Patterns
+**Related Patterns**  
 Split Composite Slide, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Apply Visual Emphasis First to strengthen your slide’s key point.
 
 ---
 
 ### Split Composite Slide
 
-#### Intent
+**Intent**  
 Break up multi-topic slides into focused units.
 
-#### Problem
+**Problem**  
 Slides with multiple unrelated bullets/topics create confusion. The audience doesn't know where to focus.
 
-#### Solution
+**Solution**  
 Split each idea or point into its own slide or visual unit. Follow the “one idea per slide” rule.
 
-#### Tradeoffs
-Pros: Easier to follow
-Cons: More slides
+**Tradeoffs**  
+Pros: Easier to follow  
+Cons: More slides  
 Difficulties: Ensuring logical transitions
 
-#### Rationale
+**Rationale**  
 Segmentation improves comprehension and reduces audience fatigue.
 
-#### Known Uses
+**Known Uses**  
 Consulting slide decks (e.g. McKinsey), modern slide storytelling
 
-#### Related Patterns
+**Related Patterns**  
 Condense Slide Content, Build Up Step-by-Step
 
-#### What Next
+**What Next**  
 Use Build Up Step-by-Step to layer ideas incrementally.
 
 ---
 
 ### Group by Meaning
 
-#### Intent
+**Intent**  
 Make relationships visible through layout.
 
-#### Problem
+**Problem**  
 Related items are scattered visually, breaking conceptual unity.
 
-#### Solution
+**Solution**  
 Use proximity, alignment, or shapes to group related content spatially.
 
-#### Tradeoffs
-Pros: Enhances clarity and flow
-Cons: Requires layout effort
+**Tradeoffs**  
+Pros: Enhances clarity and flow  
+Cons: Requires layout effort  
 Difficulties: Avoiding clutter while grouping
 
-#### Rationale
+**Rationale**  
 Gestalt principles of perception (e.g. proximity, similarity) support understanding.
 
-#### Known Uses
+**Known Uses**  
 Infographics, instructional design, concept maps
 
-#### Related Patterns
+**Related Patterns**  
 Recolor to Signal, Split Composite Slide
 
-#### What Next
+**What Next**  
 Use Eliminate Dead Space to tighten layout.
 
 ---
 
 ### Check Slide Density
 
-#### Intent
+**Intent**  
 Control the number of visual/textual elements per slide to balance clarity and information.
 
-#### Problem
+**Problem**  
 Even well-aligned slides may be too crowded or too sparse, reducing effectiveness.
 
-#### Solution
+**Solution**  
 Use a rough heuristic: max 6 elements per slide (text boxes, visuals, bullets, etc.). If you have more, consider splitting. If too sparse, consolidate.
 
-#### Tradeoffs
-Pros: Improved readability and pacing
-Cons: Adds or removes slides
+**Tradeoffs**  
+Pros: Improved readability and pacing  
+Cons: Adds or removes slides  
 Difficulties: Depends on screen size, context (e.g., large keynote vs. printed handout)
 
-#### Rationale
+**Rationale**  
 Cognitive load theory suggests limited items can be processed at once. Excess reduces recall.
 
-#### Known Uses
+**Known Uses**  
 Corporate slide templates, SlideDocs by Nancy Duarte
 
-#### Related Patterns
+**Related Patterns**  
 Split Composite Slide, Condense Slide Content, Eliminate Dead Space
 
-#### What Next
+**What Next**  
 Apply Build Up Step-by-Step or Combine Slides with Shared Context.
 
 ---
 
 ### Combine Slides with Shared Context
 
-#### Intent
+**Intent**  
 Reduce slide count and visual fragmentation by grouping closely related content.
 
-#### Problem
+**Problem**  
 Some slides artificially separate details that belong together, breaking comprehension.
 
-#### Solution
+**Solution**  
 Merge slides that share a common context or domain. Use grouping techniques, section headers, or multi-column layouts.
 
-#### Tradeoffs
-Pros: Better coherence, shorter decks
-Cons: Risk of overloading combined slide
+**Tradeoffs**  
+Pros: Better coherence, shorter decks  
+Cons: Risk of overloading combined slide  
 Difficulties: Visual layout challenges
 
-#### Rationale
+**Rationale**  
 Context switching impairs understanding. Cohesion improves flow and trust.
 
-#### Known Uses
+**Known Uses**  
 Educational slide decks, onboarding decks
 
-#### Related Patterns
+**Related Patterns**  
 Group by Meaning, Check Slide Density, Split Composite Slide
 
-#### What Next
+**What Next**  
 Follow with Visual Emphasis First to re-establish focal points.
 
 ---
@@ -417,123 +417,123 @@ Follow with Visual Emphasis First to re-establish focal points.
 
 ### Story Spine
 
-#### Intent
+**Intent**  
 Create a coherent narrative arc that guides the audience from beginning to end.
 
-#### Problem
+**Problem**  
 Slide decks often lack a sense of progression, making them feel disjointed or tedious. Viewers can't follow the logic or purpose.
 
-#### Solution
+**Solution**  
 Use a narrative structure such as:
 *Context → Conflict → Resolution*
 or the Pixar-style formula:
 “Once upon a time... Every day... Until one day... Because of that... Until finally...”
 
-#### Tradeoffs
-Pros: Improved memorability and persuasion
-Cons: Might not fit strictly data-driven decks
+**Tradeoffs**  
+Pros: Improved memorability and persuasion  
+Cons: Might not fit strictly data-driven decks  
 Difficulties: Requires rethinking the entire deck flow
 
-#### Rationale
+**Rationale**  
 Humans are wired to understand stories. Even technical content becomes more engaging when wrapped in a narrative.
 
-#### Known Uses
+**Known Uses**  
 Keynotes, startup pitch decks, TED Talks
 
-#### Related Patterns
+**Related Patterns**  
 Refine Title Messaging, Build Up Step-by-Step, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Reorder Slides for Flow to align slide structure with the narrative.
 
 ---
 
 ### Reorder Slides for Flow
 
-#### Intent
+**Intent**  
 Ensure the order of slides follows a logical and emotional arc.
 
-#### Problem
+**Problem**  
 Even well-designed slides can confuse if their sequence feels random or disjointed.
 
-#### Solution
+**Solution**  
 Move slides into a narrative flow. Begin with context, then build tension, introduce the resolution, and end with a call to action or reflection.
 
-#### Tradeoffs
-Pros: Increased engagement and clarity
-Cons: Harder to maintain if slides are updated separately
+**Tradeoffs**  
+Pros: Increased engagement and clarity  
+Cons: Harder to maintain if slides are updated separately  
 Difficulties: Requires global view of the deck structure
 
-#### Rationale
+**Rationale**  
 Sequencing influences understanding. Flow enhances the persuasive power of the entire presentation.
 
-#### Known Uses
+**Known Uses**  
 Executive reports, investor pitches, training decks
 
-#### Related Patterns
+**Related Patterns**  
 Story Spine, Build Up Step-by-Step, Refine Title Messaging
 
-#### What Next
+**What Next**  
 Reframe Ending Slide to conclude with impact.
 
 ---
 
 ### Build Up Step-by-Step
 
-#### Intent
+**Intent**  
 Guide the audience through your argument incrementally.
 
-#### Problem
+**Problem**  
 Showing everything at once can overwhelm and spoil the flow.
 
-#### Solution
+**Solution**  
 Use slide builds or successive slides to progressively reveal information.
 
-#### Tradeoffs
-Pros: Controlled attention, better pacing
-Cons: Harder to revise last minute
+**Tradeoffs**  
+Pros: Controlled attention, better pacing  
+Cons: Harder to revise last minute  
 Difficulties: Overuse can feel gimmicky
 
-#### Rationale
+**Rationale**  
 Stepwise revelation maintains curiosity and supports comprehension.
 
-#### Known Uses
+**Known Uses**  
 Educational talks, storytelling-driven keynotes
 
-#### Related Patterns
+**Related Patterns**  
 Split Composite Slide, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Check for Font Discipline to maintain professional visuals.
 
 ---
 
 ### Apply Theme Harmonization
 
-#### Intent
+**Intent**  
 Unify look-and-feel across all slides.
 
-#### Problem
+**Problem**  
 Slides created by different people or at different times feel disjointed.
 
-#### Solution
+**Solution**  
 Standardize fonts, colors, backgrounds, icons, and layout. Consider reapplying a consistent master theme or redesigning all slides into a coherent visual identity.
 
-#### Tradeoffs
-Pros: Cohesion and brand alignment
-Cons: Time-intensive
+**Tradeoffs**  
+Pros: Cohesion and brand alignment  
+Cons: Time-intensive  
 Difficulties: Legacy formatting issues
 
-#### Rationale
+**Rationale**  
 Cohesive design improves perceived quality and professionalism.
 
-#### Known Uses
+**Known Uses**  
 Corporate branding, pitch decks, conference talks
 
-#### Related Patterns
+**Related Patterns**  
 Maintain Font Discipline, Recolor to Signal
 
-#### What Next
+**What Next**  
 Add a compelling Story Spine for narrative flow.
 
 ---
@@ -544,67 +544,67 @@ Add a compelling Story Spine for narrative flow.
 
 ### Reframe Ending Slide
 
-#### Intent
+**Intent**  
 Leave the audience with a clear final message or action.
 
-#### Problem
+**Problem**  
 Many slide decks end with “Thank you” or an empty contact slide—missing the opportunity to drive a conclusion or next step.
 
-#### Solution
+**Solution**  
 Make the last slide a key takeaway, recommendation, or call to action. Optionally, provide a looping visual if used in a booth or unattended setting.
 
-#### Tradeoffs
-Pros: Memorable closing, audience clarity
-Cons: Needs tailoring to audience and context
+**Tradeoffs**  
+Pros: Memorable closing, audience clarity  
+Cons: Needs tailoring to audience and context  
 Difficulties: Balancing summary vs. call to action
 
-#### Rationale
+**Rationale**  
 Recency bias makes the last slide disproportionately influential.
 
-#### Known Uses
+**Known Uses**  
 Sales decks, advocacy talks, training wrap-ups
 
-#### Related Patterns
+**Related Patterns**  
 Story Spine, Refine Title Messaging, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Back-propagate that message into earlier slides if needed.
 
 ---
 
 ### Master–Detail Slide
 
-#### Intent
+**Intent**  
 
 Improve clarity and retention by separating what’s said from what’s saved.
 
-#### Problem
+**Problem**  
 
 Slides overloaded with both key messages and all related details lead to confusion and fatigue. Audiences struggle to find the main point or remember it.
 
-#### Solution
+**Solution**  
 
 Introduce each topic with a master slide using short, bold key messages. Follow with one or more detail slides that expand on each point with data, background, or rationale. Present only the master slide; detail slides support review afterward.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Improves message clarity and recall
-Cons: Adds to slide count
+Pros: Improves message clarity and recall  
+Cons: Adds to slide count  
 Difficulties: Requires editorial decisions on what’s core vs. context
 
-#### Rationale
+**Rationale**  
 
 Cognitive studies show people retain top-level ideas best when presented alone. This structure aligns with executive reading patterns: message now, backup later.
 
-#### Known Uses
+**Known Uses**  
 
 Management reports, consultant decks, decision briefings
 
-#### Related Patterns
+**Related Patterns**  
 
 One Idea per Slide, Refine Title Messaging, Collapse Sequence
 
-#### What Next
+**What Next**  
 
 Use Reframe Ending Slide to finish with a summary of master points or a decision prompt.
 
@@ -614,37 +614,37 @@ Use Reframe Ending Slide to finish with a summary of master points or a decision
 
 ### One Idea per Slide
 
-#### Intent
+**Intent**  
 
 Ensure each slide has a single, clear purpose.
 
-#### Problem
+**Problem**  
 
 Slides with multiple messages or topics create confusion. The audience doesn't know where to focus.
 
-#### Solution
+**Solution**  
 
 Split each idea or point into its own slide or visual unit. Follow the “one idea per slide” rule.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Easier to follow
-Cons: More slides
+Pros: Easier to follow  
+Cons: More slides  
 Difficulties: Ensuring logical transitions
 
-#### Rationale
+**Rationale**  
 
 Segmentation improves comprehension and reduces audience fatigue.
 
-#### Known Uses
+**Known Uses**  
 
 Consulting slide decks (e.g. McKinsey), modern slide storytelling
 
-#### Related Patterns
+**Related Patterns**  
 
 Condense Slide Content, Build Up Step-by-Step
 
-#### What Next
+**What Next**  
 
 Use Build Up Step-by-Step to layer ideas incrementally.
 
@@ -652,37 +652,37 @@ Use Build Up Step-by-Step to layer ideas incrementally.
 
 ### Collapse Sequence
 
-#### Intent
+**Intent**  
 
 Merge a series of related slides into a single, well-structured visual.
 
-#### Problem
+**Problem**  
 
 A long sequence of simple slides can feel slow and disjointed, hiding the big picture.
 
-#### Solution
+**Solution**  
 
 Consolidate the sequence into one slide using a timeline, flowchart, or grouped layout. Use visual cues to guide the audience through the flow.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Shows relationships and context
-Cons: Can become visually complex
+Pros: Shows relationships and context  
+Cons: Can become visually complex  
 Difficulties: Requires strong visual design skills
 
-#### Rationale
+**Rationale**  
 
 Seeing the whole system at once can create an “aha” moment and improve understanding of relationships.
 
-#### Known Uses
+**Known Uses**  
 
 Process diagrams, historical timelines, system architecture overviews
 
-#### Related Patterns
+**Related Patterns**  
 
 Group by Meaning, Visual Emphasis First
 
-#### What Next
+**What Next**  
 
 Apply Visual Emphasis First to highlight the most critical part of the sequence.
 
@@ -690,37 +690,37 @@ Apply Visual Emphasis First to highlight the most critical part of the sequence.
 
 ### Refactor Titles
 
-#### Intent
+**Intent**  
 
 Turn slide titles into key takeaways.
 
-#### Problem
+**Problem**  
 
 Generic titles like “Overview” or “Results” miss the opportunity to communicate insights.
 
-#### Solution
+**Solution**  
 
 Use declarative, conclusion-oriented titles (e.g., “Revenue Dropped Due to Market Saturation”).
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Clarity, memorable narrative
-Cons: Might oversimplify
+Pros: Clarity, memorable narrative  
+Cons: Might oversimplify  
 Difficulties: Distilling the essence of the slide
 
-#### Rationale
+**Rationale**  
 
 Strong titles help audiences grasp and recall your message quickly.
 
-#### Known Uses
+**Known Uses**  
 
 Harvard Business Review articles, strategy presentations
 
-#### Related Patterns
+**Related Patterns**  
 
 Condense Slide Content, Build Up Step-by-Step
 
-#### What Next
+**What Next**  
 
 Apply Build Up Step-by-Step to let the insight unfold logically.
 
@@ -728,37 +728,37 @@ Apply Build Up Step-by-Step to let the insight unfold logically.
 
 ### Refactor Visuals
 
-#### Intent
+**Intent**  
 
 Replace cluttered or generic visuals with clear, annotated diagrams.
 
-#### Problem
+**Problem**  
 
 Default charts, busy screenshots, or decorative icons often obscure the message rather than clarifying it.
 
-#### Solution
+**Solution**  
 
 Re-create or simplify visuals to highlight the key insight. Use labels, callouts, and color to explain what the audience should see.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Faster comprehension, more professional look
-Cons: Time-consuming
+Pros: Faster comprehension, more professional look  
+Cons: Time-consuming  
 Difficulties: Requires design judgment and tool proficiency
 
-#### Rationale
+**Rationale**  
 
 A well-designed visual can communicate complex information far more efficiently than text.
 
-#### Known Uses
+**Known Uses**  
 
 Data journalism (e.g., The New York Times), technical presentations, financial reports
 
-#### Related Patterns
+**Related Patterns**  
 
 Visual Emphasis First, Recolor to Signal
 
-#### What Next
+**What Next**  
 
 Use Recolor to Signal to add another layer of meaning.
 
@@ -766,37 +766,37 @@ Use Recolor to Signal to add another layer of meaning.
 
 ### Align Layout
 
-#### Intent
+**Intent**  
 
 Create a clean, professional look by aligning all slide elements to a grid.
 
-#### Problem
+**Problem**  
 
 Misaligned text boxes, images, and charts make slides look messy and unprofessional.
 
-#### Solution
+**Solution**  
 
 Use alignment tools to ensure all elements are perfectly aligned with each other. Create clear vertical and horizontal lines.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Improved readability and aesthetics
-Cons: Can feel rigid if overused
+Pros: Improved readability and aesthetics  
+Cons: Can feel rigid if overused  
 Difficulties: Requires attention to detail
 
-#### Rationale
+**Rationale**  
 
 A consistent layout reduces cognitive load and signals professionalism.
 
-#### Known Uses
+**Known Uses**  
 
 Corporate templates, graphic design, user interface design
 
-#### Related Patterns
+**Related Patterns**  
 
 Eliminate Dead Space, Maintain Font Discipline
 
-#### What Next
+**What Next**  
 
 Use Eliminate Dead Space to optimize the use of space.
 
@@ -804,37 +804,37 @@ Use Eliminate Dead Space to optimize the use of space.
 
 ### Slide Layout Balance
 
-#### Intent
+**Intent**  
 
 Arrange elements on a slide to create a sense of visual equilibrium.
 
-#### Problem
+**Problem**  
 
 Slides with poorly distributed elements can feel lopsided or visually jarring, distracting from the message.
 
-#### Solution
+**Solution**  
 
 Balance the visual weight of text, images, and negative space. Use symmetrical, asymmetrical, or radial balance to create a harmonious composition.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Aesthetically pleasing, professional feel
-Cons: Can be subjective
+Pros: Aesthetically pleasing, professional feel  
+Cons: Can be subjective  
 Difficulties: Requires a good eye for design
 
-#### Rationale
+**Rationale**  
 
 A balanced layout is more comfortable for the viewer and makes the content easier to absorb.
 
-#### Known Uses
+**Known Uses**  
 
 Graphic design, photography, art composition
 
-#### Related Patterns
+**Related Patterns**  
 
 Align Layout, Eliminate Dead Space
 
-#### What Next
+**What Next**  
 
 Use Align Layout to ensure all elements are perfectly positioned.
 
@@ -842,179 +842,179 @@ Use Align Layout to ensure all elements are perfectly positioned.
 
 ### Structure the Story
 
-#### Intent
+**Intent**  
 
 Create a coherent narrative arc that guides the audience from beginning to end.
 
-#### Problem
+**Problem**  
 
 Slide decks often lack a sense of progression, making them feel disjointed or tedious. Viewers can't follow the logic or purpose.
 
-#### Solution
+**Solution**  
 
 Use a narrative structure such as:
 *Context → Conflict → Resolution*
 or the Pixar-style formula:
 “Once upon a time... Every day... Until one day... Because of that... Until finally...”
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Improved memorability and persuasion
-Cons: Might not fit strictly data-driven decks
+Pros: Improved memorability and persuasion  
+Cons: Might not fit strictly data-driven decks  
 Difficulties: Requires rethinking the entire deck flow
 
-#### Rationale
+**Rationale**  
 
 Humans are wired to understand stories. Even technical content becomes more engaging when wrapped in a narrative.
 
-#### Known Uses
+**Known Uses**  
 
 Keynotes, startup pitch decks, TED Talks
 
-#### Related Patterns
+**Related Patterns**  
 
 Refine Title Messaging, Build Up Step-by-Step, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Reorder Slides for Flow to align slide structure with the narrative.
 
 ---
 
 ### Call to Action
 
-#### Intent
+**Intent**  
 
 Leave the audience with a clear final message or action.
 
-#### Problem
+**Problem**  
 
 Many slide decks end with “Thank you” or an empty contact slide—missing the opportunity to drive a conclusion or next step.
 
-#### Solution
+**Solution**  
 
 Make the last slide a key takeaway, recommendation, or call to action. Optionally, provide a looping visual if used in a booth or unattended setting.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Memorable closing, audience clarity
-Cons: Needs tailoring to audience and context
+Pros: Memorable closing, audience clarity  
+Cons: Needs tailoring to audience and context  
 Difficulties: Balancing summary vs. call to action
 
-#### Rationale
+**Rationale**  
 
 Recency bias makes the last slide disproportionately influential.
 
-#### Known Uses
+**Known Uses**  
 
 Sales decks, advocacy talks, training wrap-ups
 
-#### Related Patterns
+**Related Patterns**  
 
 Story Spine, Refine Title Messaging, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Back-propagate that message into earlier slides if needed.
 
 ---
 
 ### Typography Contrast
 
-#### Intent
+**Intent**  
 
 Use font weight, size, and style to create a clear visual hierarchy.
 
-#### Problem
+**Problem**  
 
 When all text has the same visual weight, it’s hard for the audience to scan and identify the most important information.
 
-#### Solution
+**Solution**  
 
 Create distinct styles for headlines, subheadings, and body text. Use bolding, italics, or size changes to emphasize key words or phrases.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Improved readability and focus
-Cons: Overuse can lead to a cluttered look
+Pros: Improved readability and focus  
+Cons: Overuse can lead to a cluttered look  
 Difficulties: Requires a good understanding of typography
 
-#### Rationale
+**Rationale**  
 
 Visual hierarchy guides the reader’s eye and helps them process information more efficiently.
 
-#### Known Uses
+**Known Uses**  
 
 Web design, print layout, branding guides
 
-#### Related Patterns
+**Related Patterns**  
 
 Maintain Font Discipline, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Use Maintain Font Discipline to ensure consistency across the deck.
 
 ---
 
 ### Merge Context
 
-#### Intent
+**Intent**  
 
 Combine related information from different slides to provide a more holistic view.
 
-#### Problem
+**Problem**  
 
 Information scattered across multiple slides can make it difficult for the audience to see the connections and understand the bigger picture.
 
-#### Solution
+**Solution**  
 
 Merge related charts, data points, or ideas onto a single slide. Use visual cues like grouping and labeling to show the relationships.
 
-#### Tradeoffs
+**Tradeoffs**  
 
-Pros: Improved understanding of context and relationships
-Cons: Can create a dense slide if not managed well
+Pros: Improved understanding of context and relationships  
+Cons: Can create a dense slide if not managed well  
 Difficulties: Requires careful visual organization
 
-#### Rationale
+**Rationale**  
 
 Seeing related information together reduces cognitive load and helps the audience synthesize information.
 
-#### Known Uses
+**Known Uses**  
 
 Dashboards, comparison slides, executive summaries
 
-#### Related Patterns
+**Related Patterns**  
 
 Group by Meaning, Combine Slides with Shared Context
 
-#### What Next
+**What Next**  
 Use Group by Meaning to further clarify the relationships between elements.
 
 ---
 
 ### Reduce Text Density
 
-#### Intent
+**Intent**  
 Reduce cognitive load and improve focus per slide.
 
-#### Problem
+**Problem**  
 Overly dense slides overwhelm the audience, making key messages hard to grasp. Many slide creators try to be complete rather than impactful.
 
-#### Solution
+**Solution**  
 Summarize, cut redundant bullets, and keep only one message per slide. Use notes or appendices for additional detail.
 
-#### Tradeoffs
-Pros: Clarity, stronger message retention
-Cons: Might require more slides
+**Tradeoffs**  
+Pros: Clarity, stronger message retention  
+Cons: Might require more slides  
 Difficulties: Deciding what to omit
 
-#### Rationale
+**Rationale**  
 People read slower than you speak. Slides are not documents—they’re visual aids.
 
-#### Known Uses
+**Known Uses**  
 TED Talks, Steve Jobs' keynotes
 
-#### Related Patterns
+**Related Patterns**  
 Split Composite Slide, Visual Emphasis First
 
-#### What Next
+**What Next**  
 Apply Visual Emphasis First to strengthen your slide’s key point.
