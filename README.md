@@ -30,7 +30,7 @@ Difficulties: Distilling the essence of the slide
 Strong titles help audiences grasp and recall your message quickly.
 
 **Known Uses**  
-Havard Business Review articles, strategy presentations
+Harvard Business Review articles, strategy presentations
 
 **Related Patterns**  
 Condense Slide Content, Build Up Step-by-Step
@@ -400,7 +400,7 @@ Corporate slide templates, SlideDocs by Nancy Duarte
 Split Composite Slide, Condense Slide Content, Eliminate Dead Space
 
 **What Next**  
-Apply Build Up Step-by-Step or Combine Slides with Shared Context.
+Apply Build Up Step-by-Step or Group Slides with Shared Context.
 
 ---
 
