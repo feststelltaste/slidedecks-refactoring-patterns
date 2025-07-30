@@ -34,7 +34,7 @@ def parse_patterns(readme_content):
     return patterns
 
 def generate_mermaid_graph(patterns):
-    """Generates a Mermaid.js graph from the patterns."""
+    """Generates a Mermaid.js graph from the patterns, only including patterns that have relationships."""
     mermaid_string = "graph TD;\n"
     
     all_pattern_titles = set(patterns.keys())
@@ -45,14 +45,28 @@ def generate_mermaid_graph(patterns):
             if related and related not in all_pattern_titles:
                 print(f"Warning: Related pattern '{related}' for pattern '{pattern}' does not exist.", file=sys.stderr)
 
-    # Add nodes and edges to the graph
+    edges = []
+    nodes_in_graph = set()
     for pattern, related_patterns in patterns.items():
-        pattern_id = re.sub(r'[^a-zA-Z0-9_]', '', pattern.replace(" ", ""))
-        mermaid_string += f'    {pattern_id}["{pattern}"];\n'
-        for related in related_patterns:
-            if related:
-                related_id = re.sub(r'[^a-zA-Z0-9_]', '', related.replace(" ", ""))
-                mermaid_string += f'    {pattern_id} --> {related_id};\n'
+        if related_patterns:
+            nodes_in_graph.add(pattern)
+            pattern_id = re.sub(r'[^a-zA-Z0-9_]', '', pattern.replace(" ", ""))
+            for related in related_patterns:
+                if related:
+                    nodes_in_graph.add(related)
+                    related_id = re.sub(r'[^a-zA-Z0-9_]', '', related.replace(" ", ""))
+                    edges.append(f'    {pattern_id} --> {related_id};\n')
+
+    # Add node definitions for all nodes in the graph
+    for node_name in sorted(list(nodes_in_graph)):
+        if node_name in all_pattern_titles:
+            node_id = re.sub(r'[^a-zA-Z0-9_]', '', node_name.replace(" ", ""))
+            mermaid_string += f'    {node_id}["{node_name}"];\n'
+    
+    mermaid_string += "\n"
+
+    # Add edges
+    mermaid_string += "".join(edges)
                 
     return mermaid_string
 
