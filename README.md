@@ -6,7 +6,7 @@ _Disclaimer: this content is completely AI-generated and is for demo purposes on
 
 <!-- START-GENERATED-GRAPH -->
 
-## Pattern Overview and Relationships
+**Pattern Overview and Relationships**
 
 ```mermaid
 graph TD;
